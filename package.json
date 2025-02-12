@@ -15,7 +15,7 @@
     "@hookform/resolvers": "^3.4.2",
     "@mux/mux-node": "^8.7.1",
     "@mux/mux-player-react": "^2.7.0",
-    "@prisma/client": "^5.14.0",
+    "@prisma/client": "^6.3.1",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.0.2",
@@ -29,8 +29,10 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^0.2.1",
+    "lodash": "^4.17.21",
     "lucide-react": "^0.379.0",
-    "next": "14.2.3",
+    "next": "^14.2.23",
+    "quill": "^2.0.3",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.51.5",
@@ -51,8 +53,11 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
-    "prisma": "^5.14.0",
+    "prisma": "^6.3.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "resolutions": {
+    "quill": "^2.0.3"
   }
 }
